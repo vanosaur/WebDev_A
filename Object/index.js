@@ -182,13 +182,13 @@ const PP= {
         c:3
     }
 }
-
+//shortcut
 const PPCOPY  = structuredClone(PP);
 
 PPCOPY.b.c ="Cool Hai!!"
 
 
-
+//long approach
 const PPCOPY3 = JSON.stringify(PP)
 
 const PPParsed =  JSON.parse(PPCOPY3)
